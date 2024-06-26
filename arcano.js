@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   config: {
     name: "arcano",
-    aliases: ["Shïsûį"],
+    aliases: ["Såsükë"],
     author: " Aesther ", 
     version: "2.0",
     cooldowns: 5,
@@ -31,7 +31,7 @@ module.exports = {
           gender: '𝗕𝗢𝗬',
           hobby: '𝐁𝐚𝐬𝐤𝐞𝐭🏀',
           relationship: '𝙐𝙉𝘿𝙀𝙁𝙄𝙉𝙀𝘿',
-          facebookLink: 'https://www.facebook.com/profile.php?id=61559119588245',
+          facebookLink: 'https://www.facebook.com/profile.php?id=61558901949936',
           bio: '𝙐𝙉𝘿𝙀𝙁𝙄𝙉𝙀𝘿'
         };
 
