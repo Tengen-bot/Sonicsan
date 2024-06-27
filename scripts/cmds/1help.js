@@ -8,7 +8,7 @@ const doNotDelete = "MY CREATOR UCHIWA SASUKE 🌹🌹🌹
 
 module.exports = {
   config: {
-    name: "help",
+    name: "goku",
     version: "1.17",
     author: "NTKhang", // original author leeza 
     countDown: 0,
