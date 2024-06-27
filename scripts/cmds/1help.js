@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "━━━━━━━━━━━━━━━━\n╔╦══• •✠•🫀•✠ • •══╦╗\nʬʆʬ𝐒𝐎𝐍𝐈𝐂ʚʆɞ𝐒𝐇𝐈𝐒𝐔𝐈ʬɸʬ\n╚╩══• •✠•🫀•✠ • •══╩╝"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "MY CREATOR UCHIWA SASUKE 🌹🌹🌹"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -95,7 +95,7 @@ module.exports = {
         const guideBody = configCommand.guide?.en || "No guide available.";
         const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-        const response = `❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
+        const response = `❦ঔৣ☬ASHURA☬ঔৣ❦
   ❍⌇─➭  ${configCommand.name}
   ❍⌇─➭  𝙄𝙉𝙁𝙊
   ❍⌇─➭  𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣: ${longDescription}
@@ -109,7 +109,7 @@ module.exports = {
   ❍⌇─➭  ${usage}
   ❍⌇─➭  𝙉𝙤𝙩𝙚𝙨
   ❍⌇─➭  𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 <𝙓𝙓𝙓𝙓𝙓> 𝙘𝙖𝙣 𝙗𝙚 𝙘𝙝𝙖𝙣𝙜𝙚𝙙
-  ❍⌇─➭  𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 [𝙖|𝙗|𝙘] 𝙞𝙨 𝙖 𝙤𝙧 𝙗 𝙤𝙧 𝙘 \n━━━━━━━━━━━━━━━━\n 🏁 𝙚𝙙𝙞𝙩𝙚 𝙗𝙮 : ❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
+  ❍⌇─➭  𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 [𝙖|𝙗|𝙘] 𝙞𝙨 𝙖 𝙤𝙧 𝙗 𝙤𝙧 𝙘 \n━━━━━━━━━━━━━━━━\n 🏁 𝙚𝙙𝙞𝙩𝙚 𝙗𝙮 : ❦ঔৣ☬ASHURA☬ঔৣ❦
   `;
 
         await message.reply(response);
